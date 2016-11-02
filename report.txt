@@ -1,0 +1,325 @@
+Accuracies For Use:
+
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth, longitude, latitude, attacktype1, targtype1, weaptype1, natlty1, suicide, vicinity
+Number of Groups : 10
+Years for training and testing = 2000-2010, 2011-2011
+
+Accuracies
+1. Support Vector Machines	92.44
+2. Gaussian Naive Bayes		91.84
+3. ID3 Decision Tree		95.16
+4. KNN						94.86
+5. Random Forest			96.07
+6. Ensemble of all			95.77
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1,natlty1,suicide,vicinity
+Number of Groups : 20
+Years for training and testing = 2000-2010, 2011-2011
+
+Accuracies
+1. Support Vector Machines	72.35
+2. Gaussian Naive Bayes		20.08
+3. ID3 Decision Tree		77.96
+4. KNN						74.08
+5. Random Forest			77.75
+6. Ensemble of all			74.94
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1,natlty1,suicide,vicinity
+Number of Groups : 50
+Years for training and testing = 2000-2010, 2011-2011
+
+Accuracies
+1. Support Vector Machines	65.35
+2. Gaussian Naive Bayes		16.07
+3. ID3 Decision Tree		73.39
+4. KNN						73.03
+5. Random Forest			75.53
+6. Ensemble of all			72.5
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1,natlty1,suicide,vicinity
+Number of Groups : 10
+Years for training and testing = 1980-2000, 2001-2003
+
+Accuracies
+1. Support Vector Machines	91.09
+2. Gaussian Naive Bayes		41.54
+3. ID3 Decision Tree		99.40
+4. KNN						98.81
+5. Random Forest			99.40
+6. Ensemble of all			99.70
+-------------------------------------------------------------------------------------------------------
+Feature Set: longitude,latitude,attacktsubype1,targsubtype1,weapsubtype1
+Number of Groups : 10
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	74.71
+2. Gaussian Naive Bayes		87.62
+3. ID3 Decision Tree		93.94
+4. KNN						79.60
+5. Random Forest			90.47
+6. Ensemble of all			90.82
+-------------------------------------------------------------------------------------------------------
+Feature Set: longitude,latitude
+Number of Groups : 10
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	95.43
+2. Gaussian Naive Bayes		86.26
+3. ID3 Decision Tree		94.30
+4. KNN						94.83
+5. Random Forest			95.05
+6. Ensemble of all			94.98
+-------------------------------------------------------------------------------------------------------
+Feature Set: longitude,latitude
+Number of Groups : 50
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	66.18
+2. Gaussian Naive Bayes		63.28
+3. ID3 Decision Tree		63.70
+4. KNN						65.82
+5. Random Forest			65.35
+6. Ensemble of all			66.39
+-------------------------------------------------------------------------------------------------------
+Feature Set: longitude,latitude,weaptype1,targtype1,attacktype1,imonth
+Number of Groups : 50
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	66.18
+2. Gaussian Naive Bayes		63.28
+3. ID3 Decision Tree		63.70
+4. KNN						65.82
+5. Random Forest			65.35
+6. Ensemble of all			66.39
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,attacksubtype1,targtype1,targsubtype1,weaptype1,weapsubtype1,natlty1,longitude,latitude
+Number of Groups : 100
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	42.32
+2. Gaussian Naive Bayes		37.90
+3. ID3 Decision Tree		49.26
+4. KNN						54.39
+5. Random Forest			58.05
+6. Ensemble of all			58.82
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 100
+Years for training and testing = 1990-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	52.32
+2. Gaussian Naive Bayes		42.87
+3. ID3 Decision Tree		51.43
+4. KNN						55.57
+5. Random Forest			59.47
+6. Ensemble of all			59.84
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 10
+Years for training and testing = 1970-2008, 2009-2011
+
+Accuracies
+1. Support Vector Machines	83.20
+2. Gaussian Naive Bayes		92.54
+3. ID3 Decision Tree		96.98
+4. KNN						97.51
+5. Random Forest			96.31
+6. Ensemble of all			96.98
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 10
+Years for training and testing = 1990-2011, Random Test
+
+Accuracies
+1. Support Vector Machines	92.41
+2. Gaussian Naive Bayes		94.00
+3. ID3 Decision Tree		95.41
+4. KNN						95.23
+5. Random Forest			95.59
+6. Ensemble of all			96.64
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 20
+Years for training and testing = 1990-2011, Random Test
+
+Accuracies
+1. Support Vector Machines	77.38
+2. Gaussian Naive Bayes		77.24
+3. ID3 Decision Tree		81.06
+4. KNN						80.51
+5. Random Forest			82.83
+6. Ensemble of all			83.78
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 50
+Years for training and testing = 1990-2011, Random Test
+
+Accuracies
+1. Support Vector Machines	74.03
+2. Gaussian Naive Bayes		64.65
+3. ID3 Decision Tree		78.44
+4. KNN						78.13
+5. Random Forest			80.71
+6. Ensemble of all			81.57
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,natlty1,longitude,latitude
+Number of Groups : 1500
+Years for training and testing = 1990-2011, Random Test
+
+Accuracies
+1. Support Vector Machines	59.00
+2. Gaussian Naive Bayes		20.86
+3. ID3 Decision Tree		64.62
+4. KNN						62.42
+5. Random Forest			66.82
+6. Ensemble of all			67.07
+-------------------------------------------------------------------------------------------------------
+Feature Set: country,natlty1 
+Number of Groups : 10 
+
+1. Support Vector Machines	93.39
+2. Gaussian Naive Bayes		72.
+3. ID3 Decision Tree		93.905
+4. KNN						92.87
+5. Random Forest			93.56
+6. Ensemble of all 			93.47
+-------------------------------------------------------------------------------------------------------
+Feature Set: country,natlty1
+Number of Groups : 10 50
+
+1. Support Vector Machines	73.08
+2. Gaussian Naive Bayes		36.4
+3. ID3 Decision Tree		73.327
+4. KNN						68.62
+5. Random Forest			73.04
+6. Ensemble of all 			73.13
+-------------------------------------------------------------------------------------------------------
+Feature Set: longitude,latitude,natlty1
+Number of Groups : 10 
+
+1. Support Vector Machines	93.65
+2. Gaussian Naive Bayes		94.
+3. ID3 Decision Tree		95.238
+4. KNN						94.53
+5. Random Forest			95.76
+6. Ensemble of all 			95.06
+-------------------------------------------------------------------------------------------------------
+Feature Set: country,region,vicinity,suicide
+Number of Groups : 50
+
+1. Support Vector Machines	73.03
+2. Gaussian Naive Bayes		26.34
+3. ID3 Decision Tree		73.178
+4. KNN						57.75
+5. Random Forest			73.13
+6. Ensemble of all 			73.27
+-------------------------------------------------------------------------------------------------------
+Feature Set: country
+Number of Groups : 50
+
+1. Support Vector Machines	72.84
+2. Gaussian Naive Bayes		42.6
+3. ID3 Decision Tree		72.847
+4. KNN						58.98
+5. Random Forest			72.80
+6. Ensemble of all 			72.84
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,claimmode,vicinity,suicide,extended,crit1,crit2,crit3,multiple,success
+Number of Groups : 10 
+
+1. Support Vector Machines	50.25
+2. Gaussian Naive Bayes		19.28
+3. ID3 Decision Tree		48.730
+4. KNN						47.71
+5. Random Forest			54.82
+6. Ensemble of all 			57.36
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,claimmode,vicinity,suicide,extended,crit1,crit2,crit3,multiple,success,longitude,latitude,natlty1
+Number of Groups : 10 
+
+1. Support Vector Machines	81.11
+2. Gaussian Naive Bayes		68.5
+3. ID3 Decision Tree		92.30
+4. KNN						86.71
+5. Random Forest			97.20
+6. Ensemble of all 			95.80
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,claimmode,vicinity,suicide,extended,crit1,crit2,crit3,multiple,success,nkill,nwound,propvalue
+Number of Groups : 10 
+
+1. Support Vector Machines	66.66
+2. Gaussian Naive Bayes		55.5
+3. ID3 Decision Tree		83.333
+4. KNN						61.11
+5. Random Forest			72.22
+6. Ensemble of all 			72.22
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth, attacktype1, targtype1, weaptype1, claimmode, vicinity, suicide, extended, crit1, crit2, crit3, multiple, success, nkill, nwound
+Number of Groups : 10 
+
+1. Support Vector Machines	52.68
+2. Gaussian Naive Bayes		17.74
+3. ID3 Decision Tree		47.84
+4. KNN						50.53
+5. Random Forest			58.60
+6. Ensemble of all 			58.60
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,attacktype1,targtype1,weaptype1,claimmode,vicinity,suicide,extended,crit1,crit2,crit3,multiple,success,nkill,nwound,specifity,longitude,latitude,natlty1
+Number of Groups : 50
+
+1. Support Vector Machines	63.24
+2. Gaussian Naive Bayes		24.32
+3. ID3 Decision Tree		76.21
+4. KNN						77.83
+5. Random Forest			82.70
+6. Ensemble of all			82.16 
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1
+Number of Groups : 50
+
+1. Support Vector Machines	74.67
+2. Gaussian Naive Bayes		66.41
+3. ID3 Decision Tree		75.53
+4. KNN						75.64
+5. Random Forest			80.25
+6. Ensemble of all 			80.25
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1 
+Number of Groups : 10
+Years for training and testing = 1970-1980, 2011-2011
+
+1. Support Vector Machines	1.18
+2. Gaussian Naive Bayes		0.89
+3. ID3 Decision Tree		1.18
+4. KNN						0.89
+5. Random Forest			1.18
+6. Ensemble of all 			1.18
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1 
+Number of Groups : 10 
+Years for training and testing = 1980-1990, 2011-2011
+
+1. Support Vector Machines	1.18
+2. Gaussian Naive Bayes		1.18
+3. ID3 Decision Tree		1.18
+4. KNN						0.89
+5. Random Forest			1.18
+6. Ensemble of all 			1.18
+-------------------------------------------------------------------------------------------------------
+Feature Set: imonth,longitude,latitude,attacktype1,targtype1,weaptype1 
+Number of Groups : 10 
+Years for training and testing = 1990-2000, 2011-2011
+
+1. Support Vector Machines	86.14
+2. Gaussian Naive Bayes		72.55
+3. ID3 Decision Tree		95.10
+4. KNN						84.51
+5. Random Forest			90.48
+6. Ensemble of all			88.58
